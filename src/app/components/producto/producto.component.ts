@@ -7,9 +7,6 @@ import { Component } from "@angular/core";
 })
 export class ProductoComponent {
   public titulo: string;
-  public nombre: string;
-  public precio: string;
-  public status: boolean;
 
   constructor() {
     this.titulo = "Producto";

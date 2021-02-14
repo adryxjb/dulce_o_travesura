@@ -11,15 +11,17 @@ import { Component } from "@angular/core";
 @Component({
   selector: "productosComponent",
   templateUrl: "./productos.component.html",
-  styleUrls: ["./productos.components.css"]
+  styleUrls: ["./productos.component.css"]
 })
 export class ProductosComponent {
-  nombre: string;
-  precio: number;
-  status: boolean;
-  categoria: string;
+  public titulo: string;
+  public nombre: string;
+  public precio: number;
+  public status: boolean;
+  public categoria: string;
 
   constructor() {
+    this.titulo = "Nuestros Productos";
     this.nombre = "Pay de Manzana";
     this.precio = 180;
     this.status = true;
